@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página</title>
+        
+    </head>
+    <body onload="load()">
+
+        <h1>Minha Pagina</h1>
+        <Button type="button" onclick="mensagem()">Clique Aqui</Button>   
+        <Button type="button" onclick="redirecionar()">Ir para Outra Pagina</Button>   
+
+        <h2 id="mensagemH2"></h2>
+        <p onclick="redirecionar()">Vamos para outra pagina</p>
+        <p id="mouseMover" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <p id="mouseMover2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <script src="js/javascript.js"></script>
+        <script src="js/condicionais.js"></script>
+        <script src="js/funcoes.js"></script>
+
+        <select name="sexo" id="sexo" onchange="alteracao(this)">
+            <option value="1">RS</option>
+            <option value="2">SC</option>
+            <option value="3">PR</option>
+        </select>
+
+
+
+
+    </body>
+</html>
